@@ -7,7 +7,8 @@ $query = "SELECT * FROM friend";
 $statement = $pdo->query($query);
 $friends = $statement->fetchAll(PDO::FETCH_ASSOC);
 
-// $query2 = "DELETE FROM friend WHERE firstname LIKE 'P%'LIMIT 4 ";
+// Pour suppression d'une entrée
+// $query2 = "DELETE FROM friend WHERE firstname LIKE 'P%'LIMIT 1";
 // $statement2 = $pdo->exec($query2);
 
 $flag = false;
