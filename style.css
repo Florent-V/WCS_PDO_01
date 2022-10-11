@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background : 
+    linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)
+    ) fixed no-repeat center,
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg) fixed no-repeat center;
+  background-size: cover;
+  font-family: 'poppins', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  color: white;
+  margin: 30px auto;
+}
+
+h1 {
+  font-weight: 800;
+  font-size : 1.8em;
+  margin : 10px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+#description {
+  font-weight: 200;
+  font-size : 1em;
+  font-style: italic;
+  margin: 0;
+}
+
+/* FORM */
+
+main {
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 35px;
+  width: 700px;
+  margin: auto;
+  color: white;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+
+.personnal-info {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#little {
+  font-size: 0.7em;
+}
+
+.personnal-info input, .dropmenu, #message {
+  padding: 8px;
+  width: 100%;
+  font-size: 0.9em;
+  border: 2px solid rgb(58, 58, 158);
+  border-radius: 5px;
+  margin-bottom: 25px;
+  vertical-align: baseline;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.dropmenu {
+  width: 100%;
+}
+
+#submit {
+  background-color: #37AF65;
+  display: block;
+  margin: 0;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-family: 'poppins', sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.danger {
+  background-color: #C70039;
+  border-radius: 1rem;
+}
+
+a {
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+.error {
+  background-color: #C70039;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.error ul {
+  margin-left: 2rem;
+  font-size: 1.3rem;
+}
+
+.info {
+  background-color: #37AF65;
+  border-radius: 1rem;
+  padding: 1rem;
+}
